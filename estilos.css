@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+hr {
+    color: black;
+}
+
+/**HEADER**/
+
+header { 
+    display: flex;
+    background-color: rgb(148, 82, 6);
+    overflow: hidden;
+    padding: 20px;
+    border: 30px; color: rgb(0, 0, 0); 
+    border: solid;
+    margin: 20px;
+    content: normal;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+h1 {
+    color: rgb(51, 15, 15);
+}
+
+.estilomenu {
+    color: rgb(51, 15, 15);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+/**BODY**/
+
+body { 
+    background-color: rgb(51, 15, 15);
+    color: blanchedalmond;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+/**MAIN**/
+
+.bienvenidos { 
+    display: flex;
+    justify-content: center;
+}
+
+.index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/**SECCION YAYA SESSIONS**/
+
+.contenedorsessions {
+    background-color:rgb(51, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.grillavideos {
+    display: grid;
+    background-color: rgb(148, 82, 6);
+    grid-template-columns: 100px 100px 100px;
+   /*falta contener los videos en la caja con tres columnas*/
+    padding: 20px;
+    margin: 30px;
+    gap: 20px;
+    
+}
+
+
+/**FOOTER**/
+
+footer {
+    background-color: (51, 15, 15);
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionesfooter { 
+    display: flex;
+    text-align: left;
+}
+.redesfooter { 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.datosfooter {
+    text-align: center;
+    
+}
+
+/**FOTOS**/
+
+.fotospro { 
+    text-align: center;
+}
